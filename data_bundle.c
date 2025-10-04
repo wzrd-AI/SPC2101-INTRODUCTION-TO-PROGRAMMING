@@ -6,8 +6,7 @@
 
 #include <stdio.h>
 int main() {
-    int choice, bundle;
-    float cost;
+    int choice;
 
     //display data bundle options
     printf("Select a data bundle to purchase:\n");
@@ -21,25 +20,23 @@ int main() {
     //determine the cost based on user choice
     switch (choice) {
         case 1:
-            cost = 50;
+            printf("You have selected 100MB bundle. cost : $50:\n");
             break;
         case 2:
-            cost = 200;
+            printf("You have selected 500MB bundle. cost : $200:\n");
             break;
         case 3:
-            cost = 350;
+            printf("You have selected 1GB bundle. cost : $350:\n");
             break;
         case 4:
-            cost = 600;
+            printf("You have selected 2GB bundle. cost : $600:\n");
             break;
         default:
-            printf("Invalid choice. Please select a valid option.\n");
-            return 1; //exit the program with an error code
+            printf("Invalid choice.\n");
+            break;
     }
 
-    //display the selected data bundle
-    printf("You have selected option %d. The data bundle is %dMB, the cost is $%.2f\n", choice, bundle, cost);
-
     return 0;
+
 
 }
