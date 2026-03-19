@@ -1,0 +1,227 @@
+
+
+header{
+background:#1e6ba8;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#0f3c5f;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px;
+}
+
+iframe{
+border-radius:10px;
+}
+
+
+
+body{
+    font-family: Arial, sans-serif;
+    background:#eaf6ff;
+    margin:20px;
+}
+
+h1{
+    text-align:center;
+    color:#003366;
+}
+.weather {
+  background: #1e6ba8;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  text-align: center;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+  transition: opacity 1s ease-in-out; /* fade effect */
+}
+.hidden {
+  opacity: 0;
+}
+
+
+#navbar{
+    background:#003366;
+    padding:10px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    gap:0.5vw;
+    font-size: 1.5vw;
+
+}
+#navbar a{
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:5px;
+}
+.alerts-container {
+ display: flex;
+  gap: 10vw;          
+  justify-content: center;
+  flex-wrap: wrap;   
+}
+
+.alert, .safe {
+  flex: 1;            /* equal width */
+  min-width: 250px;   /* prevents shrinking too small */
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.alert {
+  background: #ffdddd;
+  border-left: 6px solid red;
+  color: #660000;
+}
+
+.safe {
+  background: #d4edda;
+  border-left: 6px solid green;
+  color: #004d00;
+}
+.rescue-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.map-note {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+.report-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.report-form input, .report-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.report-form button {
+  background: #11171c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.report-form button:hover {
+  background: #0f3c5f;
+}
+
+.report-list {
+  margin-top: 20px;
+}
+
+.report-item {
+  background: #eaf6ff;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* stack on mobile */
+  margin-top: 15px;
+}
+
+.btn {
+  background: #d9534f;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #442cc9;
+  transform: scale(1.25); 
+}
+title {
+  font-size: 1.5em;
+  color: #003366;
+}
+.checklist {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.checklist label {
+  display: block;
+  margin: 8px 0;
+  font-size: 1.1em;
+}
+
+#resetChecklist {
+  margin-top: 15px;
+  background: #1e6ba8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#resetChecklist:hover {
+  background: #0f3c5f;
+}
+#footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#footer a {
+  color: #ffdd00;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-container p {
+  margin: 8px 0;
+  font-size: 0.95em;
+}
